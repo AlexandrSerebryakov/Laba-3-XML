@@ -1,4 +1,4 @@
-package com.epam.alex.main.entity;
+package com.epam.alex.entity;
 
 /**
  * Created by AlexandrSerebryakov on 04.11.2016.
