@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root [
-        <!ELEMENT root (#PCDATA)>
-        ]>
-<root></root>
+
+<traveldocument>
+    <passenger>
+        <name>Alexandr</name>
+        <surname>Serebryakov</surname>
+        <dateofbirth>10.10.1978</dateofbirth>
+        <pasport>
+            <number>003280924</number>
+            <citizenship>Kazakhstan</citizenship>
+        </pasport>
+    </passenger>
+    <train>
+        <traintype></traintype>
+    </train>
+</traveldocument>
