@@ -3,14 +3,17 @@
 <traveldocument>
     <passenger>
         <name>Alexandr</name>
-        <surname>Serebryakov</surname>
-        <dateofbirth>10.10.1978</dateofbirth>
+        <surname>Ivanov</surname>
+        <dateofbirth>10.10.1988</dateofbirth>
         <pasport>
             <number>003280924</number>
             <citizenship>Kazakhstan</citizenship>
         </pasport>
     </passenger>
     <train>
-        <traintype></traintype>
+        <traintype>high-speed</traintype>
+        <trainnumber>V301</trainnumber>
+        <placenumber>21</placenumber>
+
     </train>
 </traveldocument>
