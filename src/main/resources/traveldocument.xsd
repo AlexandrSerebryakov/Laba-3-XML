@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="traveldocument" type="traveldocumentType"/>
+  <xs:complexType name="traveldocumentType">
+    <xs:sequence>
+      <xs:element type="passengerType" name="passenger"/>
+      <xs:element type="trainType" name="train"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="passengerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="surname"/>
+      <xs:element type="xs:string" name="dateofbirth"/>
+      <xs:element type="pasportType" name="pasport"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="trainType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="traintype"/>
+      <xs:element type="xs:string" name="trainnumber"/>
+      <xs:element type="xs:string" name="placenumber"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pasportType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="number"/>
+      <xs:element type="xs:string" name="citizenship"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
