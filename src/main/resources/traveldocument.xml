@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE traveldocument [
+        <!ELEMENT traveldocument (passenger|train)*>
+        <!ELEMENT passenger (name|surname|dateofbirth|pasport)*>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT surname (#PCDATA)>
+        <!ELEMENT dateofbirth (#PCDATA)>
+        <!ELEMENT pasport (number|citizenship)*>
+        <!ELEMENT number (#PCDATA)>
+        <!ELEMENT citizenship (#PCDATA)>
+        <!ELEMENT train (traintype|trainnumber|placenumber)*>
+        <!ELEMENT traintype (#PCDATA)>
+        <!ELEMENT trainnumber (#PCDATA)>
+        <!ELEMENT placenumber (#PCDATA)>
+        ]>
 <traveldocument>
     <passenger>
         <name>Alexandr</name>
