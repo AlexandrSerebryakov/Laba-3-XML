@@ -9,6 +9,8 @@
   </xs:complexType>
   <xs:complexType name="passengerType">
     <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="xs:string" name="iin"/>
       <xs:element type="xs:string" name="name"/>
       <xs:element type="xs:string" name="surname"/>
       <xs:element type="xs:string" name="dateofbirth"/>
@@ -19,7 +21,14 @@
     <xs:sequence>
       <xs:element type="xs:string" name="traintype"/>
       <xs:element type="xs:string" name="trainnumber"/>
+      <xs:element type="xs:string" name="carriagetype"/>
+      <xs:element type="xs:string" name="carriagenumber"/>
       <xs:element type="xs:string" name="placenumber"/>
+      <xs:element type="xs:string" name="placeofdeparture"/>
+      <xs:element type="xs:string" name="pointofarrival"/>
+      <xs:element type="xs:string" name="international"/>
+      <xs:element type="xs:string" name="timeofdeparture"/>
+      <xs:element type="xs:string" name="arrivaltime"/>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="pasportType">

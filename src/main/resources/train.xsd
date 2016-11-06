@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="train" type="trainType"/>
+  <xs:complexType name="trainType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="traintype"/>
+      <xs:element type="xs:string" name="trainnumber"/>
+      <xs:element type="xs:string" name="carriagetype"/>
+      <xs:element type="xs:string" name="carriagenumber"/>
+      <xs:element type="xs:string" name="placenumber"/>
+      <xs:element type="xs:string" name="placeofdeparture"/>
+      <xs:element type="xs:string" name="pointofarrival"/>
+      <xs:element type="xs:string" name="international"/>
+      <xs:element type="xs:string" name="timeofdeparture"/>
+      <xs:element type="xs:string" name="arrivaltime"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<root> </root>
+<passenger>
+    <id>1234567890</id>
+    <iin>101088123456</iin>
+    <name>Alexandr</name>
+    <surname>Ivanov</surname>
+    <dateofbirth>10.10.1988</dateofbirth>
+    <pasport>
+        <number>003280924</number>
+        <citizenship>Kazakhstan</citizenship>
+    </pasport>
+</passenger>

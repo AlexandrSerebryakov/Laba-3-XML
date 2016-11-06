@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <traveldocument>
     <passenger>
+        <id>1234567890</id>
+        <iin>101088123456</iin>
         <name>Alexandr</name>
         <surname>Ivanov</surname>
         <dateofbirth>10.10.1988</dateofbirth>
@@ -14,7 +15,13 @@
     <train>
         <traintype>high-speed</traintype>
         <trainnumber>V301</trainnumber>
+        <carriagetype>reserved seat</carriagetype>
+        <carriagenumber>15</carriagenumber>
         <placenumber>21</placenumber>
-
+        <placeofdeparture>Almaty</placeofdeparture>
+        <pointofarrival>Astana</pointofarrival>
+        <international>NO</international>
+        <timeofdeparture>15:00</timeofdeparture>
+        <arrivaltime>18:00</arrivaltime>
     </train>
 </traveldocument>
