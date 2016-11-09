@@ -3,5 +3,5 @@ package com.epam.alex.parser;
 /**
  * Created by AlexandrSerebryakov on 06.11.2016.
  */
-public class TrainBookingSAXParser implements TrainBookingParser {
+public class SAXEntityParser implements EntityParser {
 }
